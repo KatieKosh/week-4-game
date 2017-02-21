@@ -1,8 +1,13 @@
 
 
+
+
+
+
+
 	$(document).ready(function() {
 
-
+alert ("Click on the crystals and come close to the computer's number without going over!! Good luck!");
 
 
 var computerNumber = 0;
