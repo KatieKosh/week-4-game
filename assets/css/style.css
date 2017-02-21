@@ -1,0 +1,215 @@
+body{
+		background-image: url("/Users/kathrynkoshinski/ut-coding-bootcamp/week-4-game/dark_embroidery/dark_embroidery.png");
+}
+
+.container {
+	border: 4px solid #00FFFF;
+	border-radius: 25px;
+	padding: 0px 5%;
+
+
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+	font-size: 6em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-shadow: 5px 5px 0px #fff, 7px 7px 0px #b05721;
+	color: #00FFFF;
+	line-height: 1;
+}
+
+
+
+
+
+.directions {
+	font-family: 'Mouse Memoirs', sans-serif;
+	font-size: 16pt;
+	color: #51a3db;
+	line-height: 1;
+}
+
+.winsLosses {
+	margin-top: 20px;
+
+}
+
+.score {
+	border: 4px solid #00FFFF;
+	border-radius: 15px;
+	padding: 10px 0px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.scoreWin {
+	font-family: 'Mouse Memoirs', sans-serif;
+	margin: -15px auto;
+	text-align: center;
+	font-size: 3em;
+	color: #00FF7F;
+}
+
+
+.scoreBorder {
+	border-right: 2px solid #00FFFF;
+}
+
+
+.scoreLoss {
+	font-family: 'Mouse Memoirs', sans-serif;
+	margin: -15px auto 0px auto;
+	text-align: center;
+	font-size: 3em;
+	color: #00FF7F;
+
+}
+
+.win {
+	font-family: 'Mouse Memoirs', sans-serif;
+	margin: -15px auto -15px auto;
+	text-align: center;
+	font-size: 4em;
+	line-height: 1.25;
+	color: #00FF7F;
+}
+
+.loss {
+	font-family: 'Mouse Memoirs', sans-serif;
+	margin: -15px auto -15px auto;
+	text-align: center;
+	font-size: 4em;
+	line-height: 1.25;
+	color:  #00FF7F;
+}
+
+.comp {
+	margin-top: 20px;
+	border: 3px solid #00FFFFF;
+	border-radius: 15px;
+	padding: 0px;
+	background-color: #00FF7F;
+	overflow: hidden;
+}
+
+.compScore {
+	font-family: 'Mouse Memoirs', sans-serif;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 2.5em;
+	border-bottom: 2px solid #00FF7F;
+	color: #fff;
+
+}
+
+.compNum {
+	font-family: 'Mouse Memoirs', sans-serif;
+	margin: -35px auto -15px auto;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 3.5em;
+	line-height: 1.25;
+	background-color: #fff;
+	color: #87ceeb;
+
+}
+
+.crystalBox {
+	margin-top: 20px;
+	border: 4px solid #87ceeb;
+	border-radius: 15px;
+	padding: 10px 40px;
+	background-color: #fff;
+}
+
+.crystalimg {
+	float: left;
+
+}
+
+.your {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 3px solid #125e92;
+	border-radius: 15px;
+	padding: 0px;
+	background-color: #fff5ee;
+	overflow: hidden;
+}
+
+.yourScore {
+	font-family: 'Mouse Memoirs', sans-serif;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 2.5em;
+	border-bottom: 2px solid #fff5ee;
+	color: #b700d9;
+
+}
+
+.yourNum {
+	font-family: 'Mouse Memoirs', sans-serif;
+	margin: -35px auto -15px auto;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 3.5em;
+	line-height: 1.25;
+	background-color: #fff;
+	color: #b700d9;
+}
+
+.dirpop {
+	border: 4px solid #b700d9;
+	background-color: #fff;
+	border-radius: 25px;
+	padding: 20px;
+	width: 40%;
+	font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.dirhead {
+ font-size: 3em;
+ color: #b700d9;
+}
+
+.dirbody {
+	font-size: 1.5em;
+	line-height: 1;
+	color: #000;
+}
+
+.my_popup_close {
+	font-size: 1.5em;
+	margin-top: 10px;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+		h1 {
+			font-size: 5.5em;
+		}
+    }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    	h1 {
+			font-size: 5em;
+		}
+
+	.dirpop {
+		width: 80%;
+		font-family: 'Mouse Memoirs', sans-serif;
+		}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    	h1 {
+			font-size: 4.5em;
+		}
+
+    }

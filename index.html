@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet"><rel='stylesheet' type='text/css'>
+
+	<title>Crystal Collector</title>
+</head>
+<body>
+<div class="container">
+
+<!-- title -->
+	<div class="row">
+		<div class="col-md-12 col-xs-12 text-center">
+			<h1>Crystal Collector</h1>
+		</div>
+	</div>
+
+
+
+
+<!-- wins and losses -->
+<div class="row winsLosses">
+	<div class="col-md-10 col-xs-12 col-md-offset-1 score">
+		<div class="col-md-6 col-xs-6 col-centered scoreBorder">
+			<div class="scoreWin">Wins:</div>
+			<div class="win" id="win">0</div>
+		</div>
+		<div class="col-md-6 col-xs-6 col-centered">
+			<div class="scoreLoss">Losses:</div>
+			<div class="loss" id="loss">0</div>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-4 col-md-offset-4 col-centered comp">
+			<div class="compScore">Computer Score</div>
+			<div class="compNum" id="compNum">0</div>
+		</div>
+</div>
+
+
+<div class="row">
+	<div class="col-md-10 col-xs-12 col-md-offset-1 col-centered crystalBox">
+			<div class="col-md-3 col-xs-3 text-center">
+				<img class="crystalimg img-responsive" id ="crystalOne" src="crystalimg1.png" width="200" height="300">
+			</div>
+		<div class="col-md-3 col-xs-3 text-center">
+				<img class="crystalimg img-responsive" id ="crystalTwo" src="crystalimg2.png" width="200" height="300">
+		</div>
+		<div class="col-md-3 col-xs-3 text-center">
+			<img class="crystalimg img-responsive" id ="crystalThree" src="crystalimg3.png" width="200" height="300">
+		</div>
+		<div class="col-md-3 col-xs-3 text-center">
+			<img class="crystalimg img-responsive" id ="crystalFour" src="crystalimg4.png" width="200" height="300">
+		</div>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-md-4 col-md-offset-4 col-centered your">
+			<div class="yourScore">Your Score</div>
+			<div class="yourNum" id="yourNum">0</div>
+		</div>
+</div>
+
+<div class="row">
+	<button class="btn btn-primary" id="resetBtn">Play Again!</button>
+</div>
+</div>
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+</html>
